@@ -9,7 +9,7 @@ function Card(props: any) {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
       className={
-        "h-full bg-slate-100/50 border border-gray-200 shadow-md dark:border-gray-700 flex flex-col justify-between " +
+        "h-full border border-gray-200 bg-graph-paper dark:bg-graph-paper-dark shadow-md dark:border-gray-700 flex flex-col justify-between " +
         " " +
         (icon ? "max-w-sm" : "max-w-lg") +
         className
