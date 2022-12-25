@@ -37,7 +37,7 @@ function WhyUs() {
             className='bg-graph-paper dark:bg-graph-paper-dark'
           />
           <Card
-            title='Engaging'
+            title='Engagement'
             description='We help you make your content in a way that your audience feels engaged with your content to make them binge watch your content.'
             className='bg-graph-paper dark:bg-graph-paper-dark'
           />
