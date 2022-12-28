@@ -72,7 +72,7 @@ function Package(props: any) {
   return (
     <div className='flex flex-col h-full max-w-lg p-8 mx-auto text-center text-gray-900 border border-gray-100 shadow bg-graph-paper dark:border-gray-600 dark:bg-graph-paper-dark dark:text-white '>
       <h3 className='mb-4 text-2xl font-semibold'>{name}</h3>
-      <p className='font-light text-gray-500 sm:text-lg dark:text-gray-400'>
+      <p className='h-[56px] font-light text-gray-500 sm:text-lg dark:text-gray-400'>
         {description}
       </p>
       <div className='flex items-baseline justify-center my-8'>
