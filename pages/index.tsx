@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Head>
-        <title>Noteworthy</title>
+        <title>Asbez Media</title>
         <meta
           name='description'
           content='Providing social media engagement and growth to improve your online presence.'
@@ -20,7 +20,7 @@ function App() {
           name='keywords'
           content='social media, get followers, get views, get likes, get more subscribers, video editor, content creation, video editing, social media engagement'
         />
-        <meta name='author' content='Noteworthy' />
+        <meta name='author' content='Asbez Media' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <meta name='theme-color' content='#000000' />
         <link rel='icon' href='/favicon.ico' />

@@ -65,7 +65,7 @@ function ContactForm() {
         {
           from_name: name,
           from_email: email,
-          to_name: "NoteWorthy Support",
+          to_name: "Asbez Media Support",
           message: message,
           reply_to: email,
         },
