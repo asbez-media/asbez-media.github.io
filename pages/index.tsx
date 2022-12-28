@@ -2,6 +2,7 @@ import Head from "next/head";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
 import Hero from "../components/hero";
+import Pricing from "../components/pricing";
 import Services from "../components/services";
 import WhatWeDo from "../components/whatwedo";
 import WhyUs from "../components/whyus";
@@ -34,6 +35,9 @@ function App() {
             <Services />
           </div>
           <WhyUs />
+          <div className='bg-fixed bg-wiggle dark:bg-wiggle-dark '>
+            <Pricing />
+          </div>
           <div className='bg-fixed bg-graph-paper dark:bg-graph-paper-dark '>
             <Contact />
           </div>
