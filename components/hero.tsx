@@ -3,10 +3,12 @@ import { Player } from "@lottiefiles/react-lottie-player";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Button from "./button";
+import Header from "./header";
 
 function Hero() {
   return (
     <section>
+      <Header />
       <div className='grid max-w-screen-xl gap-8 px-4 py-12 mx-auto lg:gap-8 xl:gap-0 lg:py-24 lg:grid-cols-12'>
         <div className='mr-auto place-self-center lg:col-span-7'>
           <motion.div

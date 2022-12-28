@@ -23,7 +23,8 @@ function App() {
         <meta name='author' content='Asbez Media' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <meta name='theme-color' content='#000000' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/favicon.png' />
+
       </Head>
       <main className='min-h-screen bg-hero dark:bg-hero-dark'>
         <article>
