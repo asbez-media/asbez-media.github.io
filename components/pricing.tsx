@@ -39,6 +39,7 @@ function Pricing() {
               name="Account Management"
               description="We manage your account for you so that you have more time being creative"
               price="$799"
+              monthly
               features={
                 [
                   "Take over the daily management of your social media accounts",
@@ -67,7 +68,7 @@ function Pricing() {
 }
 
 function Package(props: any) {
-  const { name, description, price, features } = props;
+  const { name, description, price, features, monthly } = props;
   return (
     <div className='flex flex-col h-full max-w-lg p-8 mx-auto text-center text-gray-900 border border-gray-100 shadow bg-graph-paper dark:border-gray-600 dark:bg-graph-paper-dark dark:text-white '>
       <h3 className='mb-4 text-2xl font-semibold'>{name}</h3>
@@ -76,6 +77,8 @@ function Package(props: any) {
       </p>
       <div className='flex items-baseline justify-center my-8'>
         <span className='mr-2 text-5xl font-extrabold'>{price}</span>
+        {monthly && (<span className="text-gray-500 dark:text-gray-400">/month</span>)
+        }
       </div>
       <ol className='px-5 space-y-4 text-left list-disc list-inside'>
         {features.map((feature: string) => (
