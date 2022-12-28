@@ -13,13 +13,13 @@ function Header() {
                     <picture>
                         <img
                             src='/transparent-logo.png'
-                            className='h-6 mr-3 sm:h-9'
+                            className='h-6 mr-4 sm:h-9'
                             alt='Ajez Media Logo'
                         />
                     </picture>
 
-                    <span className='self-center text-xl font-semibold whitespace-nowrap dark:text-white'>
-                        Asbez Media - Social Media Engagement Made Easy
+                    <span className='self-center text-xl font-semibold dark:text-white'>
+                        Asbez Media
                     </span>
                 </motion.div>
             </nav>
