@@ -23,7 +23,7 @@ function WhyUs() {
         <div className='grid justify-center w-full grid-cols-1 gap-8 mb-16 text-center lg:grid-cols-2 tems-center'>
           <Card
             title='Authenticity'
-            description='We help you make your content in a way that your audience feel like you are truly talking them with authenticity throughout the piece of content.'
+            description='We help you make your content in a way that your audience feel like you are truly talking to them with authenticity throughout the piece of content.'
             className='bg-graph-paper dark:bg-graph-paper-dark'
           />
           <Card
