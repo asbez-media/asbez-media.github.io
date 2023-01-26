@@ -15,7 +15,7 @@ function WhatWeDo() {
           </h2>
           <p className='w-3/4 mx-auto text-base font-normal text-gray-500 dark:text-gray-400'>
             Our approach can be broken down into 4 steps, research, plan,
-            target, and launch. These 4 steps ensure that we make an effecient
+            target, and launch. These 4 steps ensure that we make an efficient
             game plan for engaging your audience.
           </p>
         </motion.div>
